@@ -110,7 +110,7 @@ margin-left: 20px;
     width: 90%;
     margin: -70px auto; /* Adjust margin for spacing */
     border: 1px solid #a69b9b;
-    border-radius: 10px;
+    border-radius: 25px;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     position: relative;
@@ -268,22 +268,33 @@ button{
 
 .contact-card{
     /* width: 100%; */
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
     margin-top: 100px;
     margin-left: 50px;
     margin-right: 50px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     border-radius: 10px;
     border: 1px solid rgb(111, 98, 98);
+    padding: 20px;
 
 }
 .inputs {
     display: flex;
     flex-direction: column;
+    padding-top: 20px;
+    /* border-radius: 50px; */
     /* align-items: center; */
+}
+
+.inputs input{
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 20px ;
 }
 /* .inputs button{
     display: flex;
@@ -295,15 +306,32 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+    /* width: 150%; */
 }
 
 .inputs p {
     margin: 5px 0; /* Adjust margin as needed */
+    padding-top: 10px;
+    font-size: 20px;
 }
 
-button {
-    margin-top: 10px; /* Adjust margin as needed */
+.inputs button {
+    margin-top: 30px; /* Adjust margin as needed */
+    width: 100%;
+
 }
+
+.contact-card h3{
+    font-size: 30px;
+}
+
+.copyright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 @media (max-width: 1200px) {
